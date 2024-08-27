@@ -1,0 +1,215 @@
+.BlogPost-Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: whitesmoke;
+
+}
+.blogPost-cont{
+    margin-top: 0.6rem;
+    margin-bottom: 2rem;
+    width: 85%;
+    display: flex;
+    padding: 0 0 1rem 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.btn-home-back{
+    margin-top: 2rem;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-home-back button{
+    border: 1px solid #220080;
+    padding: 5px;
+    margin: 0 0.5rem;
+    color: #220080;
+    background-color: none;
+    font-size: 1.3rem;
+    font-weight: 900;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.blogPost-cont h1{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    justify-content: center;
+    padding: 1.3rem 0;
+    /*color: #7e2eff;
+    */background-color: #220080;
+    color: white;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+.main-blogs-cont{
+    display: flex;
+    border-top: 2px solid goldenrod;
+    
+}
+.main-blogs-cont main{
+    width: 75%;
+    padding: 1.5rem;
+    
+}
+.main-blogs-cont main .blog-introduction{
+   font-size: 1.1rem;
+    padding: 0 1.5rem 1.5rem;
+    
+}
+.main-blogs-cont main h2{
+    text-align: center;
+    margin: 0;
+    padding: 0 0 1rem 0;
+    font-size: 2rem;
+    color: orange;
+    font-weight: 800;
+   
+}
+.main-blogs-cont main .content-div{
+    margin: 16px 0;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.main-blogs-cont main .content-div p{
+    padding: 0 18px 18px;
+    color: #155182;
+    font-size: 1.1rem;
+}
+.main-blogs-cont main h3{
+    text-align: center;
+    border-radius: 6px 0 0 0;
+    padding: 1rem 0;
+    margin-top: 0;
+    background-color: #DFF5FF;
+    -webkit-border-radius: 6px 0 0 0;
+    -moz-border-radius: 6px 0 0 0;
+    -ms-border-radius: 6px 0 0 0;
+    -o-border-radius: 6px 0 0 0;
+}
+.main-blogs-cont .footer-blogpost h4{
+    font-size: 1.5rem;
+    margin: 1rem 0 10px 0;
+}
+.main-blogs-cont .footer-blogpost p{
+    font-size: 1.1rem;
+    padding-bottom: 2rem;
+}
+.main-blogs-cont aside{
+    width: 25%;
+    background-color: #5755FE;
+    /* background-color: #7e2eff; */
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+
+}
+.main-blogs-cont aside h4{
+    margin: 0;
+    margin-bottom: 5px;
+    color: orange;
+}
+.main-blogs-cont aside p{
+    padding-left: 0.5rem;
+    width: 90%;
+    margin-bottom: 5px;
+}
+.main-blogs-cont aside .related-post-cont p{
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+    column-gap: 5px;
+}
+.main-blogs-cont aside .related-post-cont span{
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+.main-blogs-cont aside .related-post-cont p:hover, .main-blogs-cont aside .related-post-cont span:hover{
+    color: #5b5b5b;
+}
+
+.share-blogs-btn {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.share-blogs-btn button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    font-size: 1.1rem;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+.share-blogs-btn button:hover {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+
+
+
+.blogPost-comment-section{
+    width: 100%;
+    display: flex;
+    padding-top: 2rem;
+    border-top: 2px solid orange;
+}
+.blogPost-comment-section .img-marketing{
+    width: 25%;
+    display: flex;
+}
+.blogPost-comment-section .img-marketing img{
+    width: 100%;
+    display: flex;
+}
+
+.blogPost-comment-section .blogPost-comment{
+    width: 75%;
+    padding: 0 0 2rem 0;
+    margin-left: 1rem;
+}
+.blogPost-comment section{
+    padding: 10px 0;
+    border-bottom:  1px solid #155182;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    min-height: 3rem;
+    
+}
+.blogPost-comment section aside p{
+    padding-left: 1rem;
+    line-height: 1.5rem;
+}
+.blogPost-comment h3{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.blogPost-comment section .comment-p2{
+    text-align: right;
+    margin: 0;
+    padding-right: 1rem;
+}

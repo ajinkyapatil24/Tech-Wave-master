@@ -1,0 +1,248 @@
+.course-container{
+    /* position: relative; */
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-direction: column;
+    /* background-color: #ffffff; */
+}
+main{
+    /* background-color: aqua; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main>h1{
+    margin-bottom: 5px;
+    font-weight: 800;
+    color: orange;
+    
+}
+main>p{
+    margin: 0;
+    font-weight: 600;
+}
+section{
+    
+    width: 100%;
+}
+.searchBar{
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
+.searchBar>h3{
+    margin-left: 1rem;
+}
+.searchBar>p{
+    margin: 0 1rem;
+    
+
+}
+.searchBar>p>input{
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid grey;
+    font-weight: 500;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.searchBar>p>input:focus {
+    border:  1px solid rgb(255, 149, 0);
+    box-shadow: 0px 0px 2px orange;
+}
+.searchBar>p>button{
+    width: 150px;
+    height: 38px;
+    border: none;
+    margin-left: 1rem;
+    border-radius: 10px;
+    background-color: blue;
+    font-weight: 600;
+    transition: 0.5s;
+    box-shadow: rgba(4, 92, 245, 0.25) 0px 1px 1px, rgba(5, 94, 249, 0.13) 0px 0px 1px 1px;
+    font-size: 1rem;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.searchBar>p>button:active{
+    background-color: rgba(0, 0, 255, 0.695);
+    box-shadow: rgb(204, 219, 232) 1px 1px 2px 0px inset, rgba(255, 255, 255, 0.5) -1px -1px 1px 1px inset;
+}
+.show-course{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    width: 96%;
+    padding: 9px;
+}
+.card{
+    
+    color: #4a4a4a;
+    position: relative;
+    width: 300px;
+    height: 320px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.card>h2{
+    /* box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    color: #1261a0 !important;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    font-size: 1.2rem !important;
+    margin: 0;
+    padding: 5px;
+    background-color: whitesmoke;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+.card>p{
+    padding:15px 10px 0 10px;
+    font-weight: 400;
+}
+.cardButton{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cardButton button{
+    height: 2.2rem;
+    width: 33%;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.card button:nth-child(odd){
+    background-color: #1261a0 ;
+    color: white;
+    border: none;
+    
+
+}
+.card button:nth-child(even){
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+}
+.card button:nth-child(1){
+    border-radius: 0px 0 0 5px !important;
+    -webkit-border-radius: 0px 0 0 5px !important;
+    -moz-border-radius: 0px 0 0 5px !important;
+    -ms-border-radius: 0px 0 0 5px !important;
+    -o-border-radius: 0px 0 0 5px !important;
+}
+.card button:nth-child(3){
+    border-radius: 0px 0px 5px 0 !important;
+    -webkit-border-radius: 0px 0px 5px 0 !important;
+    -moz-border-radius: 0px 0px 5px 0 !important;
+    -ms-border-radius: 0px 0px 5px 0 !important;
+    -o-border-radius: 0px 0px 5px 0 !important;
+}
+@media (max-width: 768px) {
+    .course-container {
+      margin-bottom: 2rem;
+      min-height: auto;
+    }
+    main {
+      width: 100%;
+      padding: 0 1rem;
+    }
+    main > h1 {
+      font-size: 1.5rem;
+    }
+    main > p {
+      font-size: 1rem;
+      width: 90%;
+      text-align: center;
+    }
+    .searchBar {
+      margin: 0.5rem 0;
+      padding-left: 0.5rem;
+     
+    }
+    .searchBar > h3 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    .searchBar > p {
+    
+      font-size: 0.9rem;
+    }
+    .searchBar > p > input {
+      width: 60%;
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+    .searchBar > p > button {
+      width: 30%;
+      height: 36px;
+      font-size: 0.9rem;
+    }
+    .show-course {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 1.5rem;
+      padding: 0;
+      margin-top: 1rem;
+    }
+    .card {
+      width: 90%;
+      height: auto;
+      padding-bottom: 1rem;
+    }
+    .card > h2 {
+      font-size: 1.1rem;
+    }
+    .card > p {
+      font-size: 0.9rem;
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .cardButton {
+      row-gap: 0.5rem;
+      width: 100%;
+    }
+    .cardButton button {
+      width: 33%;
+      height: 2.5rem;
+    }
+  }
+  

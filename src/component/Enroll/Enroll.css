@@ -1,0 +1,95 @@
+.enroll-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+}
+.enroll-container .images-enroll{
+    width: 50%;
+}
+.enroll-container>div{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    margin: 2.5rem 0;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.enroll-container>form h1{
+    color: #ffffff;
+}
+.enroll-container>form div{
+    padding: 5px 0;
+}
+form select{
+    outline: none;
+    width: 260px;
+    background-color: #570c69;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.507);
+}
+form select >option{
+    padding: 10px 5px;
+}
+.enroll-container form button{
+    margin: 2rem 0 !important;
+}
+form textarea{
+    outline: none;
+    width: 260px;
+    background-color: #570c69;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.507);
+    resize: vertical;
+    max-height: 250px;
+}
+@media (max-width: 768px) {
+    
+    .enroll-container .images-enroll{
+        display: none;
+    }
+    .enroll-container>div{
+        
+        width: 93%;
+    }
+    .enroll-container>form h1{
+        color: #ffffff;
+    }
+    .enroll-container>form div{
+        padding: 5px 0;
+    }
+    form select{
+        width: 260px;
+        color: white;
+        padding: 5px;
+
+    }
+    form label{
+        font-size: 14px;
+    }
+    .enroll-container form button{
+        margin: 2rem 0 !important;
+    }
+    form textarea{
+        outline: none;
+        width: 450px;
+        background-color: #570c69;
+        color: white;
+        padding: 5px;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.507);
+        resize: vertical;
+        max-height: 250px;
+    }
+}

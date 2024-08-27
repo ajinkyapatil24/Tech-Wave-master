@@ -1,0 +1,356 @@
+.container {
+  margin-bottom: 5rem;
+}
+.poster {
+  width: 100%;
+}
+.poster img {
+  width: 100%;
+  height: 400px;
+}
+.details {
+  margin-top: 1rem;
+  display: flex;
+  column-gap: 2rem;
+  width: 100%;
+  justify-content: center;
+}
+.details > div {
+  width: 28%;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  padding: 1rem 1rem 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.information-div {
+  color: white;
+  background-image: url("../../img/home1bg.jpg");
+
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5); /* 50% opacity */
+}
+.details h3 {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  color: #ff9800;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.information-div > p {
+  padding: 0.5rem;
+  font-weight: 400;
+  text-shadow: 0.1px 0.1px 1px white;
+  /* text-align: center; */
+  background-color: rgba(0, 0, 0, 0.305);
+}
+
+.placement-status > p {
+  padding: 0.5rem;
+  color: #1261a0;
+  font-weight: 500;
+  background-color: whitesmoke;
+  margin-top: 8px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.placement-status > p > span {
+  color: #ff9800;
+  font-weight: 600;
+}
+.career-div > p {
+  padding: 0.5rem;
+  font-weight: 500;
+  text-align: center;
+  color: #151515;
+}
+.career-div > .p1 {
+  background-color: rgba(245, 245, 245, 0.593);
+  border-radius: 10px;
+  margin-bottom: 0.4rem;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.career-div > p > button {
+  margin-top: 2rem;
+  padding: 15px 20px;
+}
+.career-div > p > button:nth-child(1) {
+  background-color: #ff9800;
+  border: none;
+  text-align: "center";
+  color: white;
+  padding: 13px 20px;
+  margin-right: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  width: 120px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.career-div > p > button:nth-child(2) {
+  background-color: rgb(0, 64, 255);
+  border: none;
+  color: white;
+  padding: 13px 20px;
+  margin-left: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  width: 120px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.home-course {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  width: 100%;
+}
+.home-course-div {
+  width: 90%;
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.home-course-div h2 {
+  background-color: #1261a0;
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem 0;
+  text-align: center;
+  color: white;
+}
+.home-course-div p {
+  color: #1261a0;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.home-course-div h4 {
+  color: #ff9800;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+.home-course-div div {
+  display: flex;
+  column-gap: 1rem;
+  margin: 5px 0;
+}
+.home-course-div div button {
+  padding: 10px 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.home-course-div div button:nth-child(odd) {
+  background-color: #ff9800;
+  border: none;
+  text-align: "center";
+  color: white;
+}
+.home-course-div div button:nth-child(even) {
+  background-color: #1261a0;
+  border: none;
+  color: white;
+}
+
+.upcoming-events-section {
+  margin: 3rem 0;
+  padding: 1rem 0;
+  background-color: #eaf5ff;
+}
+.upcoming-events-section .row h2 {
+  text-align: center;
+  color: #ff4500;
+}
+.upcoming-events-container {
+  display: flex;
+  column-gap: 1.5rem;
+  justify-content: center;
+  margin: 0 2rem;
+}
+
+.section-heading {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.divider {
+  width: 50px;
+  border-width: 3px;
+  border-color: #ff4500;
+}
+
+.event {
+  width: 28%;
+  height: 250px;
+  position: relative;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.event-title {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.event-date,
+.event-time {
+  margin-bottom: 5px;
+}
+
+.event-description {
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  margin-top: 10px;
+  background-color: #ff4500;
+  color: #fff;
+  position: absolute;
+  font-weight: 600;
+  bottom: 10px;
+  left: 1.5rem;
+
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #dc3545;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    margin-bottom: 3rem;
+  }
+  .poster img {
+    height: auto;
+  }
+  .details {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+  .details > div {
+    width: 90%;
+    padding: 1rem;
+  }
+  .information-div {
+    background-size: cover;
+  }
+  .details h3 {
+    align-items: flex-start;
+    font-size: 1rem;
+  }
+  .information-div > p, .placement-status > p, .career-div > p {
+    font-size: 0.9rem;
+  }
+  .career-div > p > button {
+    margin-top: 1rem;
+    padding: 10px 15px;
+    width: 100%;
+  }
+  .home-course {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-course-div {
+    width: 96%;
+  }
+  .home-course-div div {
+    align-items: center;
+    padding: 0 10px;
+    row-gap: 0.5rem;
+  }
+  .home-course-div p {
+    text-align: center;
+  }
+  .home-course-div div button {
+    font-size: 11px;
+    padding: 10px;
+  }
+  .upcoming-events-section {
+    padding: 0;
+  }
+  .upcoming-events-container {
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 0;
+  }
+
+  .upcoming-events-section .row h2 {
+    text-align: center;
+    color: #ff4500;
+  }
+
+
+  .event {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+  .event-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .event-description, .event-date, .event-time {
+    font-size: 0.9rem;
+  }
+  .event-description{
+    margin-bottom: 2rem;
+  }
+  .btn-primary {
+    width: calc(100% - 3rem);
+    left: 1.5rem;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,129 @@
+.courseDetails-cont {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+}
+.course-Main {
+  width: 90%;
+  margin: 2rem;
+}
+.course-Main h1 {
+  color: orange;
+}
+.course-Main .course-div-links {
+  display: flex;
+  column-gap: 1rem;
+}
+.course-Main .course-div-links a {
+  padding: 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  width: 50px;
+  text-align: center;
+  font-size: 15px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.course-Main .course-div-links a:nth-child(1) {
+  background-color: #ff9800;
+  color: white;
+}
+.course-Main .course-div-links a:nth-child(2) {
+  background-color: #1261a0;
+  color: white;
+}
+.course-Main .course-div-links a:nth-child(1):active {
+  background-color: rgb(210, 137, 0);
+}
+.course-Main .course-div-links a:nth-child(2):active {
+  background-color: #007be0;
+}
+
+.course-Main aside p {
+  line-height: 2rem;
+}
+.course-Main aside span {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-right: 5px;
+}
+.course-Main > div {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-bottom: 1rem;
+}
+.course-Main > div > h3 {
+  width: 100%;
+  padding: 5px 0 10px;
+  background-color: whitesmoke;
+  color: #ff9800;
+  text-align: center;
+}
+.course-Main > div > aside {
+  color: #1261a0;
+  font-weight: 500;
+  padding: 0 10px 10px 40px;
+}
+
+.courseDetails-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .courseDetails-cont {
+    flex-direction: column;
+    min-height: auto;
+  }
+  .course-Main {
+    width: 90%;
+    margin: 1rem 0;
+    padding: 0 1rem;
+  }
+  .course-Main h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .course-Main .course-div-links {
+    row-gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  .course-Main .course-div-links a {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .course-Main aside p {
+    line-height: 1.5rem;
+  }
+
+  .course-Main aside span {
+    font-size: 0.9rem;
+  }
+  .course-Main .courseOverview aside{
+    text-align: center;
+  }
+  .course-Main > div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  .course-Main > div > h3 {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+  .course-Main > div > aside {
+    padding: 0 1rem 1rem;
+    font-size: 0.9rem;
+  }
+  .courseDetails-header {
+    text-align: center;
+    padding: 1rem 0;
+  }
+}

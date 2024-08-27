@@ -1,0 +1,31 @@
+footer{
+    /* position: fixed; */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: #434343;
+    color: rgb(255, 255, 255);
+}
+footer p{
+    display: flex;
+    align-items: center;
+    
+    margin: 0;
+    padding: 0 2rem;
+}
+footer .footer-icons{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    column-gap: 2rem;
+    font-size: 1.5rem;
+}
+/* @media (max-width: 768px) {
+    footer {
+        background-color: red;
+    }
+} */

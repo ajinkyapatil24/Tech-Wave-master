@@ -1,0 +1,128 @@
+
+  "navBar": {
+    "sections": ["Home", "Courses", "Blogs", "Articles"]
+  },
+  "blogs": {
+    "header": {
+      "title": "Blogs",
+      "subtitle": "Insights and Updates from the Tech World",
+      "searchBar": true,
+      "categories": ["AI", "Data Science", "Web Development", "Cloud Computing", "DevOps"]
+    },
+    "featuredBlogs": [
+      {
+        "title": "The Future of Artificial Intelligence",
+        "imageUrl": "https://example.com/ai-future.jpg",
+        "excerpt": "Explore the latest advancements and future trends in AI.",
+        "readMoreUrl": "https://techwave.edu/blogs/the-future-of-ai"
+      },
+      {
+        "title": "Mastering Web Development in 2024",
+        "imageUrl": "https://example.com/web-dev-2024.jpg",
+        "excerpt": "A comprehensive guide to the most important web development skills and technologies.",
+        "readMoreUrl": "https://techwave.edu/blogs/mastering-web-development-2024"
+      }
+    ],
+    "recentPosts": [
+      {
+        "title": "Top 10 Data Science Projects for Beginners",
+        "publicationDate": "2024-05-10",
+        "excerpt": "Start your data science journey with these beginner-friendly projects.",
+        "readMoreUrl": "https://techwave.edu/blogs/data-science-projects"
+      },
+      {
+        "title": "Understanding DevOps: A Beginner's Guide",
+        "publicationDate": "2024-04-28",
+        "excerpt": "Learn the basics of DevOps and how it can improve your development workflow.",
+        "readMoreUrl": "https://techwave.edu/blogs/understanding-devops"
+      }
+    ],
+    "popularPosts": [
+      {
+        "title": "Introduction to Cloud Computing",
+        "readMoreUrl": "https://techwave.edu/blogs/introduction-to-cloud-computing"
+      },
+      {
+        "title": "Best Practices for AI Ethics",
+        "readMoreUrl": "https://techwave.edu/blogs/ai-ethics-best-practices"
+      }
+    ],
+    "postDetails": {
+      "title": "The Future of Artificial Intelligence",
+      "author": "Jane Doe",
+      "publicationDate": "2024-05-15",
+      "categoryTags": ["AI", "Technology"],
+      "content": "<p>The field of artificial intelligence (AI) is rapidly evolving...</p>",
+      "shareButtons": true,
+      "commentsSection": true
+    },
+    "authorBios": [
+      {
+        "name": "Jane Doe",
+        "bio": "Jane is a leading expert in AI with over 10 years of experience...",
+        "photoUrl": "https://example.com/janedoe.jpg",
+        "articlesUrl": "https://techwave.edu/authors/jane-doe"
+      }
+    ],
+    "subscribeSection": {
+      "title": "Subscribe to Our Newsletter",
+      "description": "Get the latest blog posts and updates directly in your inbox.",
+      "formUrl": "https://techwave.edu/subscribe"
+    },
+    "relatedPosts": [
+      {
+        "title": "AI and Machine Learning: What's the Difference?",
+        "readMoreUrl": "https://techwave.edu/blogs/ai-vs-machine-learning"
+      },
+      {
+        "title": "How AI is Transforming Healthcare",
+        "readMoreUrl": "https://techwave.edu/blogs/ai-healthcare"
+      }
+    ]
+  },
+  "articles": {
+    "header": {
+      "title": "Articles",
+      "subtitle": "In-Depth Analysis and Research",
+      "searchBar": true,
+      "categories": ["AI", "Data Science", "Web Development", "Cloud Computing", "DevOps"]
+    },
+    "featuredArticles": [
+      {
+        "title": "The Impact of AI on Society",
+        "imageUrl": "https://example.com/ai-impact.jpg",
+        "excerpt": "An in-depth look at how AI is shaping various aspects of society.",
+        "readMoreUrl": "https://techwave.edu/articles/ai-impact"
+      },
+      {
+        "title": "Data Science in Finance: Trends and Applications",
+        "imageUrl": "https://example.com/data-science-finance.jpg",
+        "excerpt": "Explore how data science is revolutionizing the finance industry.",
+        "readMoreUrl": "https://techwave.edu/articles/data-science-finance"
+      }
+    ],
+    "recentArticles": [
+      {
+        "title": "The Role of DevOps in Modern Software Development",
+        "publicationDate": "2024-05-05",
+        "excerpt": "Understand the significance of DevOps in today's software development landscape.",
+        "readMoreUrl": "https://techwave.edu/articles/devops-role"
+      },
+      {
+        "title": "Advancements in Web Development: 2024 Edition",
+        "publicationDate": "2024-04-20",
+        "excerpt": "A comprehensive overview of the latest trends and technologies in web development.",
+        "readMoreUrl": "https://techwave.edu/articles/web-development-2024"
+      }
+    ],
+    "popularArticles": [
+      {
+        "title": "Ethics in AI: Challenges and Solutions",
+        "readMoreUrl": "https://techwave.edu/articles/ai-ethics"
+      },
+      {
+        "title": "Big Data and Its Applications in Healthcare",
+        "readMoreUrl": "https://techwave.edu/articles/big-data-healthcare"
+      }
+    ],
+   
